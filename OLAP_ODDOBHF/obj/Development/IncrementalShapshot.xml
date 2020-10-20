@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>OLAP_ODDOBHF</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>eiE2jaoiNfs3dAwxdPgHeEkf0mM=06/01/2020 17:44:4406/01/2020 17:44:44</TimeStamp>
+        <ID>
+          <String>DW ODDOBHF</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>y3jfkA5rDVWxnpRmH0I0dL05hJk=06/01/2020 17:45:1206/01/2020 17:45:10</TimeStamp>
+        <ID>
+          <String>DW ODDOBHF</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7SJFgqsJw7M0qhh3aRcyMPqz4ms=06/01/2020 17:46:1106/01/2020 17:45:41</TimeStamp>
+        <ID>
+          <String>Dim Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MJK8ru1tctz/XLxSFKCQMXOU6uk=06/01/2020 17:47:4206/01/2020 17:45:41</TimeStamp>
+        <ID>
+          <String>Dim Tiers Compte</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4U01fJEfGg56OJjw7J3uEdsSnfc=06/01/2020 17:45:4106/01/2020 17:45:41</TimeStamp>
+        <ID>
+          <String>Fact Operation</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>l9QH4j6n690/E9ZaH33XhTqHT38=06/01/2020 17:48:0006/01/2020 17:45:41</TimeStamp>
+        <ID>
+          <String>Dim Contact</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ouSnCNauqhzUSx3tt7kWeeeMMb8=06/01/2020 17:48:0006/01/2020 17:45:40OlcVdO0oeKSBqSR5SN3y/Eaykxk=06/01/2020 17:45:4106/01/2020 17:45:40</TimeStamp>
+        <ID>
+          <String>DW ODDOBHF</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>glBqVaRO1IvVNo0sG6L5oGdT0Ic=06/01/2020 17:41:5706/01/2020 17:41:55</TimeStamp>
+      <ID>
+        <String>OLAP_ODDOBHF</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-01-06T16:48:41.506667Z</LastDeployed>
+</DeploymentSnapshot>

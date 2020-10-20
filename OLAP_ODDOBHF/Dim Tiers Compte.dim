@@ -1,0 +1,1216 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c022e569-b2a8-49f5-921a-dd78659983d6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Tiers Compte</ID>
+  <Name>Dim Tiers Compte</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="135" scrolltop="-4742" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="8509" y="16256" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimGeneriquesTiers" left="20" top="6595" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6223" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800004f18000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimGeneriquesTiers" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimTiersCompte" left="2073" top="808" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4170" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800004a1000003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimTiersCompte" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimCompteGenerique" left="8643" top="2" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="6160" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800001018000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCompteGenerique" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2732" top="3895" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="1726" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimTiersCompte_DimGeneriquesTiers]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="10" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3131" y="6595" />
+              <point x="3131" y="5395" />
+              <point x="4158" y="5395" />
+              <point x="4158" y="4195" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5943" top="2103" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_DimTiersCompte_DimCompteGenerique]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="30" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8643" y="2502" />
+              <point x="7443" y="2502" />
+              <point x="7443" y="2501" />
+              <point x="6243" y="2501" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>135</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4742</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>2</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="04da6741-3c7d-4ebe-a3e7-02cf3e7ecef5">
+    <DataSourceViewID>DW ODDOBHF</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="aa83e4f0-7d21-42a3-8dbc-35c3d34919aa">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a190c239-7044-49d3-9e45-153969f729f9">
+      <ID>Pk Dim Tier Compte</ID>
+      <Name>Pk Dim Tier Compte</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2b1b03ee-f3a9-4b93-8c5a-93d05e76cad0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f62ba8e1-b33b-4366-8fca-4e67e900db93">
+            <TableID>dbo_DimTiersCompte</TableID>
+            <ColumnID>Pk_DimTierCompte</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="cbdb188f-1e98-4845-8930-c681aaf033ce">
+          <AttributeID>Pk Generique Tiers</AttributeID>
+          <Name>Pk Generique Tiers</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6eed9a5-7c22-4642-9544-d15040ba8d17">
+          <AttributeID>Pk Dim Generique Compte</AttributeID>
+          <Name>Pk Dim Generique Compte</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="368b47e4-ea0a-4910-9ec9-b688c0379a63">
+          <AttributeID>GTI Cod Societe</AttributeID>
+          <Name>GTI Cod Societe</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4d279c4d-a387-4ecb-a015-ccb816da41fd">
+          <AttributeID>GTI Cod Prestataire</AttributeID>
+          <Name>GTI Cod Prestataire</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="778efc20-4869-461d-8d8d-37836878ea51">
+          <AttributeID>Pays Naissance</AttributeID>
+          <Name>Pays Naissance</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9070efe8-95f9-47eb-948d-c23ff8ee7328">
+          <AttributeID>EW28 Libelle</AttributeID>
+          <Name>EW28 Libelle</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1d9efbed-e218-4877-a49c-2c4f25745458">
+          <AttributeID>Civilite</AttributeID>
+          <Name>Civilite</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6b34adc3-c6ae-41cd-84e9-fb95fa9322fe">
+          <AttributeID>GTI Num Statut Pers</AttributeID>
+          <Name>GTI Num Statut Pers</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4aa6f614-d4c7-44b4-9caf-1e95e37c02b5">
+          <AttributeID>GTI Dat Naissance Ou Creation</AttributeID>
+          <Name>GTI Dat Naissance Ou Creation</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e286599a-34ff-4c54-b18a-5c05127b8a8a">
+          <AttributeID>Sexe</AttributeID>
+          <Name>Sexe</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="33552231-c82d-465c-b1ca-ec66734b3805">
+          <AttributeID>Situation Familiale</AttributeID>
+          <Name>Situation Familiale</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fb8e41d2-556a-46db-884d-6d725aea34b2">
+          <AttributeID>Csp</AttributeID>
+          <Name>Csp</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d8bce9f6-ca90-40f4-a804-a52ecb5467db">
+          <AttributeID>Profession</AttributeID>
+          <Name>Profession</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="151533a6-1a31-4ac2-8374-adacba5fd3ab">
+          <AttributeID>GTI Cod Type Investisseur Mif2</AttributeID>
+          <Name>GTI Cod Type Investisseur Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8ea780c9-804a-4ff0-ba2d-327e4be4b61e">
+          <AttributeID>GTI Cod Experience Mif2</AttributeID>
+          <Name>GTI Cod Experience Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e34e2d67-6199-4e32-b35c-bed56f31e9d9">
+          <AttributeID>GTI Cod Capacite Produit Complexe Mif2</AttributeID>
+          <Name>GTI Cod Capacite Produit Complexe Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="48426356-bab9-4f7c-a7ca-d066a37f461c">
+          <AttributeID>Departement Residence</AttributeID>
+          <Name>Departement Residence</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="63534298-3915-4a2a-a3de-180631695d69">
+          <AttributeID>GTI Cod Tiers</AttributeID>
+          <Name>GTI Cod Tiers</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c9e751bd-2cae-4de4-80d1-90f9a50765a9">
+          <AttributeID>Code Tiers</AttributeID>
+          <Name>Code Tiers</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="90d22556-0131-48d1-b05a-1710a93dff42">
+          <AttributeID>FK Code Compte</AttributeID>
+          <Name>FK Code Compte</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bae7f2c4-deb7-47ef-b00a-e67c9af4c587">
+          <AttributeID>TCL Num Lien</AttributeID>
+          <Name>TCL Num Lien</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4171b32b-b384-4e2a-a284-379311c68e91">
+          <AttributeID>TCL Cod Societe</AttributeID>
+          <Name>TCL Cod Societe</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0c2add09-fb25-49a0-9a1d-a0db2c9c48e2">
+          <AttributeID>CRT Libelle</AttributeID>
+          <Name>CRT Libelle</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="74c0021a-98a0-4bec-b997-d2aaaea236fa">
+          <AttributeID>Fk Dim Generique Tiers</AttributeID>
+          <Name>Fk Dim Generique Tiers</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fc754517-ff9e-4218-b087-8fd35f96ea70">
+          <AttributeID>Code Compte</AttributeID>
+          <Name>Code Compte</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c655f43f-9b61-40dd-8749-e80774789c19">
+          <AttributeID>GCO Cod Societe</AttributeID>
+          <Name>GCO Cod Societe</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b837ab42-6964-496b-bfb2-6878d3127a96">
+          <AttributeID>GCO Cod Prestataire</AttributeID>
+          <Name>GCO Cod Prestataire</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cc6c8de4-45dd-478c-84be-adc271d21c4c">
+          <AttributeID>GCO Cod Tarif</AttributeID>
+          <Name>GCO Cod Tarif</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="119e8f14-52a1-46b0-8905-5b5c66af1441">
+          <AttributeID>GCO Cod Type Orientation</AttributeID>
+          <Name>GCO Cod Type Orientation</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="203b1658-472b-4127-95ff-9aebc8533588">
+          <AttributeID>GCO Is Ouvert</AttributeID>
+          <Name>GCO Is Ouvert</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ee6f98a5-70be-45bc-a45e-1410bcf8c8a2">
+          <AttributeID>GCO Is Pea</AttributeID>
+          <Name>GCO Is Pea</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a979a623-8cd5-4ce5-805a-163e3ed5d593">
+          <AttributeID>GCO Is Asv</AttributeID>
+          <Name>GCO Is Asv</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="068dcdf6-24ae-41d4-857f-eedef320cc4f">
+          <AttributeID>GCO Is Nanti</AttributeID>
+          <Name>GCO Is Nanti</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="eadd667e-1aa0-4fcf-9b5c-0b3f7a57899f">
+          <AttributeID>GCO Is Assureur</AttributeID>
+          <Name>GCO Is Assureur</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="88accbae-88dd-40ee-8cb0-b9b74ecab0fd">
+          <AttributeID>GCO Cod Produit</AttributeID>
+          <Name>GCO Cod Produit</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="17161145-fbfb-4ccf-86e3-4eb30d4a708e">
+          <AttributeID>GCO Typ Gestion</AttributeID>
+          <Name>GCO Typ Gestion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f70ebb1c-2344-4de3-a2d9-9fc17698561f">
+          <AttributeID>GCO Lib Etat Compte</AttributeID>
+          <Name>GCO Lib Etat Compte</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f322e8fc-8e34-4007-a5e1-4757392bd909">
+          <AttributeID>GCO Cod Tarif DDG</AttributeID>
+          <Name>GCO Cod Tarif DDG</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8ae0cc88-3654-49c1-a1a9-140cb4559473">
+          <AttributeID>GCO Cod Tarif FHG</AttributeID>
+          <Name>GCO Cod Tarif FHG</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="25465224-b05f-4f50-8e27-cc5696127ace">
+          <AttributeID>GCO Is Pea Pme</AttributeID>
+          <Name>GCO Is Pea Pme</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="416fc222-1dda-4544-8ade-df494f76218a">
+          <AttributeID>GCO Cod Typ Contrat</AttributeID>
+          <Name>GCO Cod Typ Contrat</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cda31af9-5cd5-43ed-9e95-a3f9fcf8b123">
+          <AttributeID>GCO Cod Enveloppe Fiscale</AttributeID>
+          <Name>GCO Cod Enveloppe Fiscale</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="73dc872e-82b7-406c-8e9d-e64b64c73abe">
+          <AttributeID>GCO Cod Tribu</AttributeID>
+          <Name>GCO Cod Tribu</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="680d2e6b-65b9-44d5-9fa3-aad22d7c8ec9">
+          <AttributeID>GCO Cod Capacite Support Pertes Mif2</AttributeID>
+          <Name>GCO Cod Capacite Support Pertes Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="63428956-5898-4ece-9d88-8667e5cb9707">
+          <AttributeID>GCO Cod Profil Investissement Mif2</AttributeID>
+          <Name>GCO Cod Profil Investissement Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fddcc7d7-d779-4963-a0ea-fcc540228da2">
+          <AttributeID>GCO Cod Tolerance Risque Mif2</AttributeID>
+          <Name>GCO Cod Tolerance Risque Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cef76c96-88ec-4b9f-89b1-617bc4f8e757">
+          <AttributeID>GCO Cod Horizon Placement Mif2</AttributeID>
+          <Name>GCO Cod Horizon Placement Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="34576a9c-3870-43d4-8a7e-15bcfddcc833">
+          <AttributeID>GCO Cod Objectif Placement Mif2</AttributeID>
+          <Name>GCO Cod Objectif Placement Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3a2bbe0e-329d-4e4e-9f1f-5bf4d3ed0d70">
+          <AttributeID>GCO Cod Type Distribution Mif2</AttributeID>
+          <Name>GCO Cod Type Distribution Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7d4b8694-a45e-4580-b562-512cd73061dc">
+          <AttributeID>GCO Cod Profil Risque Mif2</AttributeID>
+          <Name>GCO Cod Profil Risque Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b8ed5d5a-b093-4aa5-ab21-49d1530d22ba">
+          <AttributeID>GCO Cod Strategie Investissement Mif2</AttributeID>
+          <Name>GCO Cod Strategie Investissement Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="195f5c40-8bfe-4341-894b-08a0db5f44f3">
+          <AttributeID>GCO Allocation Action Min Mif2</AttributeID>
+          <Name>GCO Allocation Action Min Mif2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="74541459-fb0e-4fa1-8f8e-a74e00051116">
+          <AttributeID>GCO Allocation Action Max Mif2</AttributeID>
+          <Name>GCO Allocation Action Max Mif2</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="71fedb6d-48cd-43d0-b6c5-efef6eed5528">
+      <ID>Pk Generique Tiers</ID>
+      <Name>Pk Generique Tiers</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b5d83b9-608f-4893-8db9-d9fb76e85309">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a32628b9-5d86-4607-9e22-8e6cf75fc8cc">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>Pk_GeneriqueTiers</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="93c2d888-9af4-4ecf-905e-7fd59ee7ea66">
+      <ID>Pk Dim Generique Compte</ID>
+      <Name>Pk Dim Generique Compte</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5129c9fc-fe6c-48ec-a790-9b6549482d35">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="574acf1c-44cf-4380-8178-1486d10c2516">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>Pk_DimGeneriqueCompte</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="37d3eca3-7ea2-469d-81b0-bf75ce072254">
+      <ID>GTI Cod Societe</ID>
+      <Name>GTI Cod Societe</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cceffa40-f913-4e49-bd83-097401a803e3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05851d9c-44a7-46f1-a2f3-cfafdffbbefa">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>GTI_CodSociete</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8cae70aa-8b9e-4001-b06d-dfadc03580a1">
+      <ID>GTI Cod Prestataire</ID>
+      <Name>GTI Cod Prestataire</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b29be52-98cd-45e5-b722-c18ff1c75d45">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a58fad4f-3750-4171-a495-23e2bd5c3649">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>GTI_CodPrestataire</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="101a808e-4af8-43e8-8b01-cb6161e8854d">
+      <ID>Pays Naissance</ID>
+      <Name>Pays Naissance</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d1c09245-f3ed-49ab-b085-74be9876a4e4">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2846162c-57d3-41c6-bc26-5cd73bb72399">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>PaysNaissance</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5895c2ec-d435-4088-b772-d0d99bcb0a3b">
+      <ID>EW28 Libelle</ID>
+      <Name>EW28 Libelle</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dfd1b3b9-f693-43c7-9850-177798b3232e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="77bf3362-c7be-4233-a112-0f5105dfa2de">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>EW28_Libelle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a112aa1d-3505-4226-9c9d-6450aebab264">
+      <ID>Civilite</ID>
+      <Name>Civilite</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="87128c2e-e9ac-4892-af1f-76daad6c5758">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a3d104fc-b164-4c34-ae7e-50bb135e853b">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>civilite</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="627fb818-81b8-4ab9-8c19-f95c5c71be7d">
+      <ID>GTI Num Statut Pers</ID>
+      <Name>GTI Num Statut Pers</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e2951a5-0377-4d50-9c82-d6c9372db8af">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b2be1d4d-ef4f-4060-98e8-45c1c9d7ace6">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>GTI_NumStatutPers</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0839981c-11c8-4e10-bcf4-c530a4a9dde8">
+      <ID>GTI Dat Naissance Ou Creation</ID>
+      <Name>GTI Dat Naissance Ou Creation</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5e643fa1-78a6-424c-b530-f50b399f3b22">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32b83106-e827-4628-947b-522f83dc9344">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>GTI_DatNaissanceOuCreation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="900ae0db-dbb9-4365-9c2d-469a056187f7">
+      <ID>Sexe</ID>
+      <Name>Sexe</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="821876ce-b371-4039-bd69-d29765dec209">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d3f462f-6585-457e-93a3-6895fa5018f0">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>Sexe</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="06a6aa00-f8b0-4e5e-8b68-3edb33a86af6">
+      <ID>Situation Familiale</ID>
+      <Name>Situation Familiale</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="92a8449f-4d57-436b-8215-054de043bae1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aff6a767-28ba-4ade-9ea4-d255224004e3">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>SituationFamiliale</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8128c852-d20d-410b-8704-c69fb7ccc2c3">
+      <ID>Csp</ID>
+      <Name>Csp</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b0936270-1a01-4d34-8df0-61289053155e">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01f20ef6-e4c5-47ae-9f3b-20f81fd6ce36">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>csp</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2c082c3b-227e-4ffa-a3fb-c8dcf2718069">
+      <ID>Profession</ID>
+      <Name>Profession</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2a98061a-1c5c-4c98-a8a6-fb97327d1eb3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b535a31-4cbb-4c5e-8f7f-6d5558ebb8c6">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>profession</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="40bb4a57-559a-4910-8d5d-fe952336c92c">
+      <ID>GTI Cod Type Investisseur Mif2</ID>
+      <Name>GTI Cod Type Investisseur Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0a3e27a4-8824-49b2-8c52-90687dd408ed">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eb3f17df-0291-4496-905d-9e8eee52d17f">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>GTI_CodTypeInvestisseurMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="651c9d35-07c4-436c-9d58-d17b896c4f2d">
+      <ID>GTI Cod Experience Mif2</ID>
+      <Name>GTI Cod Experience Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f4808268-c414-4a40-bd1a-26b7ee7a26e6">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="617eaef8-fa5f-4a0b-86cd-7894df97727f">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>GTI_CodExperienceMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ef470194-557e-42c3-a77e-86a5611f6e36">
+      <ID>GTI Cod Capacite Produit Complexe Mif2</ID>
+      <Name>GTI Cod Capacite Produit Complexe Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="29afdc7f-c020-447d-baf0-5d100f23efc0">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="177beb40-5ffd-4fb4-af62-baddb43bef70">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>GTI_CodCapaciteProduitComplexeMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="32abfabd-81fd-48ea-a9ec-1cefe82c133e">
+      <ID>Departement Residence</ID>
+      <Name>Departement Residence</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fc239ef5-ce79-41df-81aa-d20c9f59e6d6">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="432ebe1e-d91f-4228-92b0-c2df4fc4074b">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>DepartementResidence</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="73149dfb-c8b5-4c40-84f5-049c4c69be03">
+      <ID>GTI Cod Tiers</ID>
+      <Name>GTI Cod Tiers</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0df7b08d-27db-45d1-a248-7b76a081b821">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a38f3f4-84d1-44f4-9b33-762bdb552284">
+            <TableID>dbo_DimGeneriquesTiers</TableID>
+            <ColumnID>GTI_CodTiers</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="464f0091-c81c-4aa1-9c17-20cfa9b40136">
+      <ID>Code Tiers</ID>
+      <Name>Code Tiers</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dc19186e-ada7-43aa-a221-ecfb2f32f8a7">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9778f649-6498-49c9-8f8b-8d26f0a44317">
+            <TableID>dbo_DimTiersCompte</TableID>
+            <ColumnID>CodeTiers</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="25fd434f-b099-48e8-a295-d2dce48cfdc9">
+      <ID>FK Code Compte</ID>
+      <Name>FK Code Compte</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="25bd0879-2253-4fda-8b77-2ca3b3af6b12">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1dc02e06-a897-4de1-8e8a-8f81a5382257">
+            <TableID>dbo_DimTiersCompte</TableID>
+            <ColumnID>FK_CodeCompte</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="13556696-e88e-497e-ad60-0693f5c76d76">
+      <ID>TCL Num Lien</ID>
+      <Name>TCL Num Lien</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4aee27d3-a268-403f-911b-cfbe6e92dbb9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74c8ed3b-32b1-4b60-ad20-5da7c7849488">
+            <TableID>dbo_DimTiersCompte</TableID>
+            <ColumnID>TCL_NumLien</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f7c57192-9b2b-45d4-ab97-b05971d14ed5">
+      <ID>TCL Cod Societe</ID>
+      <Name>TCL Cod Societe</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="de27d89d-0300-4316-8097-a1579527fc2d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1c763c73-7fa0-47a9-903b-e6c1848a3f15">
+            <TableID>dbo_DimTiersCompte</TableID>
+            <ColumnID>TCL_CodSociete</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5bee130c-ce9c-4e05-a0b7-c2154442f4f2">
+      <ID>CRT Libelle</ID>
+      <Name>CRT Libelle</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a924d3c3-2628-4946-b7dd-5d2d4247d173">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="21a904bb-d88c-4cf9-afe4-c58d7b582eaf">
+            <TableID>dbo_DimTiersCompte</TableID>
+            <ColumnID>CRT_Libelle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bacf1750-e16b-4cd2-851e-be00c7548b15">
+      <ID>Fk Dim Generique Tiers</ID>
+      <Name>Fk Dim Generique Tiers</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2467ce19-8e6f-4d87-91be-e18bc372e03d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5286dcc9-49d6-4d8c-b1bb-98cf12617e3f">
+            <TableID>dbo_DimTiersCompte</TableID>
+            <ColumnID>Fk_DimGeneriqueTiers</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f632a4ad-b413-4552-9500-ee490836187a">
+      <ID>Code Compte</ID>
+      <Name>Code Compte</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d373a55b-5407-4743-a73c-22ae886e22de">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="91de285f-f5fc-4763-9fdd-b9a7ebec72fb">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>CodeCompte</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2f2d9156-4fb0-4511-a088-9a03ec9b683b">
+      <ID>GCO Cod Societe</ID>
+      <Name>GCO Cod Societe</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eaf12536-bef0-47a3-8e51-0d25618f6f94">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="30c525a1-a308-4657-a0c2-78401f7e5120">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodSociete</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2732c744-547f-4c25-a99a-f8fab89f8847">
+      <ID>GCO Cod Prestataire</ID>
+      <Name>GCO Cod Prestataire</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7b8c8acf-9787-4d82-9d5e-905313557749">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3fd5499-0a19-431e-a071-f82c5d646646">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodPrestataire</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0c7ec24b-806a-4b93-9572-e2163328de71">
+      <ID>GCO Cod Tarif</ID>
+      <Name>GCO Cod Tarif</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e056f8c3-17bb-48a8-ba3b-f3fcbc9e8535">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="26fcbfeb-9fdf-4981-a1f3-3af72dccc6bf">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodTarif</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a2e0d21d-0165-457a-9188-14f9cb1c7f9a">
+      <ID>GCO Cod Type Orientation</ID>
+      <Name>GCO Cod Type Orientation</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="df2596f6-bca6-40e1-83d4-3623e3f8fd64">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9af2ad7a-95e4-452e-960b-166ebeae5345">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodTypeOrientation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c4812570-f4f6-4934-9315-0a489f1cce3f">
+      <ID>GCO Is Ouvert</ID>
+      <Name>GCO Is Ouvert</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a21a2ad1-e52c-4222-9f5b-a713b4dc2681">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="befaa852-fbfe-49ae-a82a-3bed607a2a9a">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_IsOuvert</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f4191bf5-d61e-40bc-9cf4-82400a669626">
+      <ID>GCO Is Pea</ID>
+      <Name>GCO Is Pea</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2051aace-60dd-4a85-b51f-a7a9fadadde9">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ace4e799-a6fe-4946-8b6d-08e5411aa82c">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_IsPea</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c5bdd87f-2263-4dd3-9fb5-d440352ec59a">
+      <ID>GCO Is Asv</ID>
+      <Name>GCO Is Asv</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="43782fc7-5428-478e-995b-d05e720fe24e">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5fa4f39-57ca-4f71-a3de-b51470bcc74f">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_IsAsv</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fcfb8689-f57b-478a-a686-44e66184cddf">
+      <ID>GCO Is Nanti</ID>
+      <Name>GCO Is Nanti</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7dd45453-e573-4189-92a5-b1a15fcb1261">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="85c8c1a6-6880-4d4b-8d49-d9302f2e8bd8">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_IsNanti</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5410c69b-f115-4a69-a050-ae17eae9d4a0">
+      <ID>GCO Is Assureur</ID>
+      <Name>GCO Is Assureur</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6ddee4e2-90bd-44c9-86a7-b03142f031fc">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d7b7dab2-bd1f-439e-9b55-6a93df66e253">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_IsAssureur</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="21dd8302-41af-46fa-a90b-74ef1cd3f854">
+      <ID>GCO Cod Produit</ID>
+      <Name>GCO Cod Produit</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="23aca21e-cec1-45eb-985f-21fd69c746ba">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d3db593-2301-4fcb-bda7-f328deee40fc">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodProduit</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="973dcd5e-9348-4d35-b89e-df7fb82f6778">
+      <ID>GCO Typ Gestion</ID>
+      <Name>GCO Typ Gestion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9d474818-5234-40b2-93f1-d7af0dfe3165">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="56c1e058-2a07-449d-8eea-b929a4cbd151">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_TypGestion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="52735733-f4aa-4cb4-8305-791d7fb50f44">
+      <ID>GCO Lib Etat Compte</ID>
+      <Name>GCO Lib Etat Compte</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e2cbac96-b03c-42bb-a888-10b8951b7b4d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="942926ce-aac5-4c1d-b71a-a54cb4c847be">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_LibEtatCompte</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8acd962b-bcda-47aa-b18a-56bdf43dba98">
+      <ID>GCO Cod Tarif DDG</ID>
+      <Name>GCO Cod Tarif DDG</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f8269552-f32d-4f84-90db-11830e5cf8bb">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b272ee4c-efa7-4a0d-8d2c-352270dbcfa5">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodTarifDDG</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="36df3dde-02ef-4955-a4ae-5ff293548b9f">
+      <ID>GCO Cod Tarif FHG</ID>
+      <Name>GCO Cod Tarif FHG</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ad5ba200-a32f-4983-a6c0-e1ab45b99bac">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f97a5b6f-9d83-43f8-a815-6a02bbdbbcee">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodTarifFHG</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b99eabf9-8d5d-459f-9520-a28ed9101089">
+      <ID>GCO Is Pea Pme</ID>
+      <Name>GCO Is Pea Pme</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6e879a94-1f6f-4025-9929-0af3956936b4">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5d8887b-9222-498f-bd94-d0a287046a19">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_IsPeaPme</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="27c1d05d-d86a-4491-866d-04432d44c208">
+      <ID>GCO Cod Typ Contrat</ID>
+      <Name>GCO Cod Typ Contrat</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0f31ba02-1a75-4f56-bb31-fcc703df61e3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c103ce50-6f55-450b-8511-c3698e892c69">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodTypContrat</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="84270ad8-b00b-4027-9896-b70e4e2aceca">
+      <ID>GCO Cod Enveloppe Fiscale</ID>
+      <Name>GCO Cod Enveloppe Fiscale</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eb4678b3-1b79-4385-b5c9-17d2d0335b70">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="df658d46-2114-4af3-8bf5-27d1765333b1">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodEnveloppeFiscale</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="099b73e3-83dc-4efc-82e3-9abf43ce73f7">
+      <ID>GCO Cod Tribu</ID>
+      <Name>GCO Cod Tribu</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5a213e65-dfc4-48c9-8a83-4ec99243745b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b54dda12-5fe5-420d-b0c2-78a39200dc9b">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodTribu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0de0166d-ae01-4dd5-9e12-ed049bf87b33">
+      <ID>GCO Cod Capacite Support Pertes Mif2</ID>
+      <Name>GCO Cod Capacite Support Pertes Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="63075a5d-5a1a-4fd6-ad74-933db50cc82a">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="481b0235-7533-4cd2-b00c-5be9e99d48da">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodCapaciteSupportPertesMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="91ac6c33-0004-4185-9e8b-617068ac4afa">
+      <ID>GCO Cod Profil Investissement Mif2</ID>
+      <Name>GCO Cod Profil Investissement Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a388e29b-04d7-48c3-bb3e-2c62a94dded0">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7006e9bf-6c52-4ccb-9fbc-edc79c0ea6cd">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodProfilInvestissementMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0c058c53-3fcc-4536-be36-af4eed63e6ad">
+      <ID>GCO Cod Tolerance Risque Mif2</ID>
+      <Name>GCO Cod Tolerance Risque Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1d61093d-4911-4035-be20-1ebfaeab2a83">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f055534d-669a-4295-8d14-bda93dd2378e">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodToleranceRisqueMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="012a4d37-5926-40a6-a080-d7b7a896a2e2">
+      <ID>GCO Cod Horizon Placement Mif2</ID>
+      <Name>GCO Cod Horizon Placement Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="47da6cd2-063e-456a-a8d0-3c27b6f88001">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68953501-5e09-477c-853f-3010fb9c304c">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodHorizonPlacementMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fa6efb50-5767-4e46-90b0-3a6f42c8c0d9">
+      <ID>GCO Cod Objectif Placement Mif2</ID>
+      <Name>GCO Cod Objectif Placement Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="105df3a9-4ba5-443d-97a2-3b06bd2d2f28">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="720c539d-5dd1-4b66-9a13-702e5e7df95c">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodObjectifPlacementMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a43cf14a-8c56-4d9b-a16e-45614ab3466a">
+      <ID>GCO Cod Type Distribution Mif2</ID>
+      <Name>GCO Cod Type Distribution Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3d49231e-34a8-403a-aa4b-cee0a0521f81">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6bf26a33-fa9d-4a54-9993-30b6bfed757a">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodTypeDistributionMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3710c9b8-45fb-4444-b644-dfb5a925a52f">
+      <ID>GCO Cod Profil Risque Mif2</ID>
+      <Name>GCO Cod Profil Risque Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5d8c210f-93c7-41e1-82b5-a47154fcfae5">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4eeb3911-12a4-4e2d-a1a6-05139ca88bea">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodProfilRisqueMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5c5732e7-2e66-4c27-95d0-f28cb003c23c">
+      <ID>GCO Cod Strategie Investissement Mif2</ID>
+      <Name>GCO Cod Strategie Investissement Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b344b3b9-a878-4520-bfef-4c9045c76daa">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f62b028e-2563-43d3-bdfa-f8a2a56b0e38">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_CodStrategieInvestissementMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="61c35aa0-8520-4d32-8693-99c0b5f2e8fa">
+      <ID>GCO Allocation Action Min Mif2</ID>
+      <Name>GCO Allocation Action Min Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3f9d77db-18e0-4cb7-9ed4-4a0c7e3e9fa5">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b29aaff3-3c12-4383-aaba-b3016e23b0fd">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_AllocationActionMinMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7cb3da6b-ab03-45c5-aed4-004b6d4bb6ca">
+      <ID>GCO Allocation Action Max Mif2</ID>
+      <Name>GCO Allocation Action Max Mif2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bb7bbb0a-1936-425a-9fdd-f9efc28753f9">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70a45d26-5f72-4b9c-83ed-422a9dc3308c">
+            <TableID>dbo_DimCompteGenerique</TableID>
+            <ColumnID>GCO_AllocationActionMaxMif2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
